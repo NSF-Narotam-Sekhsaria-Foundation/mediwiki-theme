@@ -30,7 +30,7 @@
         padding: 0 15px;
     }
     span.fa.fa-search {
-        position: absolute;
+        /*position: absolute;*/
         color: #fff;
         padding: 0;
         font-size: 19px;
@@ -615,14 +615,14 @@
     }
     span.fa.fa-search {
         visibility: visible;
-        position: absolute;
+        /*position: absolute;*/
         color: #fff;
         padding: 0%;
         font-size: 19px;
     }
     span.fa.fa-download {
         visibility: visible;
-        position: absolute;
+        /*position: absolute;*/
         color: #fff;
         padding: 0%;
         font-size: 19px;
@@ -2643,7 +2643,7 @@
         color: #00a99b;
     }
     span.fa.fa-search {
-        position: absolute;
+        /*position: absolute;*/
         color: #fff;
         padding: 0;
         font-size: 19px;
@@ -2652,7 +2652,7 @@
         display: block;
     }
     span.fa.fa-download {
-        position: absolute;
+        /*position: absolute;*/
         color: #fff;
         padding: 0;
         font-size: 19px;
@@ -3581,7 +3581,7 @@
     }
     span.fa.fa-search {
         visibility: visible;
-        position: absolute;
+        /*position: absolute;*/
         color: #fff;
         padding: 2% 9%;
         font-size: 19px;
@@ -3589,7 +3589,7 @@
     }
     span.fa.fa-download {
             visibility: visible;
-            position: absolute;
+            /*position: absolute;*/
             color: #fff;
             padding: 2% 9%;
             font-size: 19px;
@@ -4474,7 +4474,7 @@
     }
     span.fa.fa-search {
         visibility: visible;
-        position: absolute;
+        /*position: absolute;*/
         color: #fff;
         padding: 12% 26%;
         font-size: 19px;
@@ -4482,7 +4482,7 @@
     }
     span.fa.fa-download {
         visibility: visible;
-        position: absolute;
+        /*position: absolute;*/
         color: #fff;
         padding: 12% 26%;
         font-size: 19px;
