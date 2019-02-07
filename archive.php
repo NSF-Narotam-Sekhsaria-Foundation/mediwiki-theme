@@ -106,18 +106,19 @@ get_header();
 	            </div>
 	            <div class="col-sm-7">
 	                <form action="#" class="search_form" onsubmit="return false;">
-	                    <div class="col-xs-6 padding-left-0 padding-right-0">
+	                    <div class="col-xs-6 col-md-6 padding-left-0 padding-right-0">
 	                        <input type="search" name="search" required="" placeholder="Search here" class="form-control search_field">
 	                        <span class="fa fa-times" id="reset-search-box"></span>
 	                    </div>
-	                    <div class="col-xs-6 padding-left-0 padding-right-0">
+	                    <div class="col-xs-3 col-md-3 padding-left-0 padding-right-1">
 	                        
 	                        <input type="reset" class="reset"> 
-	                        <!-- <input type="submit" class="search_button" name="" value="Search">  -->
 	                        <button class="search_button" name="" value="Search"><span class="fa fa-search"></span> <span class="search_name">Search</span></button>
-                            <a href=""><button type="button" class="download_button"><span class="download_name">Download</span></button></a>
+                      </div>
+                        <div class="col-xs-3 col-md-3 padding-left-0 padding-right-1">
+                            <button type="button" class="download_button"><span class="fa fa-download"></span><span class="download_name">Download</span></button>
 
-                </div>
+                        </div>
 	                </form>                
 	            </div>
 	        </div>

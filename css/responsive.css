@@ -38,11 +38,27 @@
         left: 40%;
         display: block;
     }
+    span.fa.fa-download {
+        position: absolute;
+        color: #fff;
+        padding: 0;
+        font-size: 19px;
+        bottom: 30%;
+        left: 40%;
+        display: block;
+    }
     span.search_name {
+        display: none;
+    }
+    span.download_name {
         display: none;
     }
     button.search_button {
         width: 100%;    
+        margin-left: 0px;
+    }
+    button.download_button {
+        width: 100%;
         margin-left: 0px;
     }
     span#reset-search-box {
@@ -582,7 +598,29 @@
         letter-spacing: normal;
         color: #00a99b;
     }
+    input.download_button {
+        width: 20%;
+        height: 40px;
+        border-radius: 2px;
+        background-color: #00a99b;
+        border: none;
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #00a99b;
+    }
     span.fa.fa-search {
+        visibility: visible;
+        position: absolute;
+        color: #fff;
+        padding: 0%;
+        font-size: 19px;
+    }
+    span.fa.fa-download {
         visibility: visible;
         position: absolute;
         color: #fff;
@@ -846,6 +884,10 @@
         width: 100%;    
         margin-left: 0px;
     }
+    button.download_button {
+        width: 100%;
+        margin-left: 0px;
+    }
     span#reset-search-box {
         position: absolute;
         right: 80px;
@@ -947,6 +989,10 @@
     }
     button.search_button {
         width: 100%;    
+        margin-left: 0px;
+    }
+    button.download_button {
+        width: 100%;
         margin-left: 0px;
     }
     span#reset-search-box {
@@ -1062,6 +1108,9 @@
     }
     button.search_button {
         width: 100%;    
+        margin-left: 0px;
+    }button.download_button {
+        width: 100%;
         margin-left: 0px;
     }
     span#reset-search-box {
@@ -1269,6 +1318,10 @@
         width: 100%;    
         margin-left: 0px;
     }
+    button.download_button {
+        width: 100%;
+        margin-left: 0px;
+    }
     span#reset-search-box {
         position: absolute;
         right: 80px;
@@ -1378,6 +1431,10 @@
     }
     button.search_button {
         width: 100%;    
+        margin-left: 0px;
+    }
+    button.download_button {
+        width: 100%;
         margin-left: 0px;
     }
     span#reset-search-box {
@@ -1491,6 +1548,10 @@
         width: 100%;    
         margin-left: 0px;
     }
+    button.download_button {
+        width: 100%;
+        margin-left: 0px;
+    }
     span#reset-search-box {
         position: absolute;
         right: 80px;
@@ -1602,6 +1663,10 @@
         width: 100%;    
         margin-left: 0px;
     }
+    button.download_button {
+        width: 100%;
+        margin-left: 0px;
+    }
     span#reset-search-box {
         position: absolute;
         right: 80px;
@@ -1711,6 +1776,10 @@
     }
     button.search_button {
         width: 100%;    
+        margin-left: 0px;
+    }
+    button.download_button {
+        width: 100%;
         margin-left: 0px;
     }
     span#reset-search-box {
@@ -1827,6 +1896,10 @@
         width: 100%;    
         margin-left: 0px;
     }
+    button.download_button {
+        width: 100%;
+        margin-left: 0px;
+    }
     span#reset-search-box {
         position: absolute;
         right: 7px;
@@ -1935,6 +2008,10 @@
     }
     button.search_button {
         width: 100%;    
+        margin-left: 0px;
+    }
+    button.download_button {
+        width: 100%;
         margin-left: 0px;
     }
     span#reset-search-box {
@@ -2550,6 +2627,21 @@
         letter-spacing: normal;
         color: #00a99b;
     }
+    input.download_button {
+        width: 20%;
+        height: 40px;
+        border-radius: 2px;
+        background-color: #00a99b;
+        border: none;
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #00a99b;
+    }
     span.fa.fa-search {
         position: absolute;
         color: #fff;
@@ -2559,7 +2651,19 @@
         left: 40%;
         display: block;
     }
+    span.fa.fa-download {
+        position: absolute;
+        color: #fff;
+        padding: 0;
+        font-size: 19px;
+        bottom: 30%;
+        left: 40%;
+        display: block;
+    }
     span.search_name {
+        display: none;
+    }
+    span.download_name {
         display: none;
     }
     span#filters {
@@ -2781,6 +2885,10 @@
     }
     button.search_button {
         width: 100%;    
+        margin-left: 0px;
+    }
+    button.download_button {
+        width: 100%;
         margin-left: 0px;
     }
     span#reset-search-box {
@@ -3456,6 +3564,21 @@
         letter-spacing: normal;
         color: #00a99b;
     }
+    input.download_button {
+        width: 20%;
+        height: 40px;
+        border-radius: 2px;
+        background-color: #00a99b;
+        border: none;
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #00a99b;
+    }
     span.fa.fa-search {
         visibility: visible;
         position: absolute;
@@ -3464,6 +3587,15 @@
         font-size: 19px;
         top: -3px;
     }
+    span.fa.fa-download {
+            visibility: visible;
+            position: absolute;
+            color: #fff;
+            padding: 2% 9%;
+            font-size: 19px;
+            top: -3px;
+        }
+
     span#filters {
         float: right;
         width: 34px;
@@ -4326,7 +4458,29 @@
         letter-spacing: normal;
         color: #00a99b;
     }
+    input.download_button {
+        height: 40px;
+        border-radius: 2px;
+        background-color: #00a99b;
+        border: none;
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #00a99b;
+    }
     span.fa.fa-search {
+        visibility: visible;
+        position: absolute;
+        color: #fff;
+        padding: 12% 26%;
+        font-size: 19px;
+        top: -3px;
+    }
+    span.fa.fa-download {
         visibility: visible;
         position: absolute;
         color: #fff;
@@ -4995,6 +5149,9 @@
     }
     
     span.fa.fa-search {
+        display: none;
+    }
+    span.fa.fa-download {
         display: none;
     }
     .cancel_mobile{
