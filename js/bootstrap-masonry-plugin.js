@@ -1,4 +1,4 @@
-jQuery(window).on('resize', function(){
+jQuery(window).on('load', function(){
     var masonryOptions = {
         columnWidth: '.masonry-sizer',
         itemSelector: '.masonry-item',
