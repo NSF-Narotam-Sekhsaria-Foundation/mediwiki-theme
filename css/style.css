@@ -1011,6 +1011,8 @@ aside{
     padding: 0 15px;
     margin: 0 auto; 
     min-height: 399px; 
+    max-height: 399px;
+    overflow: hidden;
 }
 section.grid-area {
     padding: 0;
