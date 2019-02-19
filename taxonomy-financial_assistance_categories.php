@@ -15,7 +15,14 @@ get_header();
 <div class="breadcrumbs_full">
     <div class="container">
     <div class="row">                        
-        <div class="col-sm-12">
+        <div class="col-md-7 col-sm-6 pb-30">
+            <div class="links_area">
+                <?php
+                if(function_exists('bcn_display')) {
+                    bcn_display();
+                }
+                ?>
+            </div>
             <h3><?php echo $archive_title; ?></h3>
         </div>  
     </div>
