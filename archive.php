@@ -102,7 +102,7 @@ get_header();
 
 	        <div class="breadcrumbs">
 	            <div class="col-sm-5">
-	                <h3><?php echo $archive_title; ?> <span id="filters"><a href="javascript:void(0)">Filters</a></span></h3>                        
+	                <h3><?php echo $archive_title; ?> <span id="filters"><a href="javascript:void(0)">Filters</a></span></h3>
 	            </div>
 	            <div class="col-sm-7">
 	                <form action="#" class="search_form" onsubmit="return false;">
@@ -144,7 +144,16 @@ get_header();
     </div>   
 </section>
 
-<div id="snackbar">Link Copied!</div>    
+<div id="snackbar">Link Copied!</div>
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_42 a2a_default_style" >
+    <a class="a2a_button_facebook"></a>
+    <a class="a2a_button_twitter"></a>
+    <a class="a2a_button_whatsapp"></a>
+    <a class="a2a_button_email"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
 
 <?php get_footer(); ?>
 

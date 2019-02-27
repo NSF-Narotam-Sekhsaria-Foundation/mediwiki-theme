@@ -1,0 +1,27 @@
+
+@media only screen and (min-width: 601px){
+    .a2a_kit{
+    float: left;
+    display: flex;
+    flex-flow: column;
+    height: 200px;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 150px;
+    margin-top: 100px;
+    z-index: 100;
+
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .a2a_kit{
+        display: flex;
+        flex-flow: row;
+        position: fixed;
+        bottom: 0;
+        justify-content: center;
+        z-index: 100;
+        width: 100%;
+    }
+}

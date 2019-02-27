@@ -125,6 +125,7 @@ function mediwikiwp_scripts() {
 	wp_enqueue_style( 'mediwikiwp-bootstrap-style', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
 	wp_enqueue_style( 'mediwikiwp-custom-style', get_stylesheet_directory_uri() . '/css/style.css' );
 	wp_enqueue_style( 'mediwikiwp-responsive-style', get_stylesheet_directory_uri() . '/css/responsive.css' );
+	wp_enqueue_style( 'mediwikiwp-anyshare-style', get_stylesheet_directory_uri() . '/css/custom.css' );
 
 	wp_enqueue_script( 'mediwikiwp-jquery', get_stylesheet_directory_uri() . '/js/jquery-1.12.4.js', array(), '1.12.4', true );
 	wp_enqueue_script( 'mediwikiwp-bootstrap', get_stylesheet_directory_uri() . '/js/bootstrap.min.js', array(), '3.3.7', true );

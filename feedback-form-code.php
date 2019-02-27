@@ -1,4 +1,5 @@
 // Add the following code to contactform7 plugin in wordpress
+// Editing this page will not work or change the code untill you paste it into the plugin in wp-admin
 
 <div class="contact-form mobile-padding">
     <div class="form-group mt-100">

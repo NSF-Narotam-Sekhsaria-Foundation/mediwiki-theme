@@ -10,6 +10,16 @@
         }
     ?>
     <div class="container-fluid service-area">
+<!--        <div class="sharethis-sticky-share-buttons " style="position: sticky; margin-top: 50px"></div>-->
+        <!-- AddToAny BEGIN -->
+        <div class="a2a_kit a2a_kit_size_42 a2a_default_style" >
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_twitter"></a>
+            <a class="a2a_button_whatsapp"></a>
+            <a class="a2a_button_email"></a>
+        </div>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+        <!-- AddToAny END -->
         <div class="container">
             <div class="row masonry-container">
                 <div class="col-md-4 col-sm-6 masonry-sizer"></div>

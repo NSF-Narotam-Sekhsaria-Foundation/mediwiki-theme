@@ -21,7 +21,15 @@ get_header();
         </div>
     </div>
 </div>
-
+    <!-- AddToAny BEGIN -->
+    <div class="a2a_kit a2a_kit_size_42 a2a_default_style" >
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_whatsapp"></a>
+        <a class="a2a_button_email"></a>
+    </div>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <!-- AddToAny END -->
 <section class="grid-area custom-padding-grid">
     <div class="container">
         <div class="row">
