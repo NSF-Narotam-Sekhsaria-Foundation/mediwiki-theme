@@ -173,15 +173,15 @@
                             <a href="<?php the_permalink(); ?> " class="title-link" id="title-link_<?php echo get_the_ID(); ?>"><?php the_title(); ?></a>
                             <div class="clearfix"></div>
                             <div class="pull-right icon-list">
-                                <span>
-                                    <a id="copy-title-link" href="javascript:void(0);" data-href="<?php the_permalink(); ?>" onclick="copyToClipboard(this)">Copy Link</a>
-                                </span>
+<!--                                <span>-->
+<!--                                    <a id="copy-title-link" href="javascript:void(0);" data-href="--><?php //the_permalink(); ?><!--" onclick="copyToClipboard(this)">Copy Link</a>-->
+<!--                                </span>-->
                                 <span>
                                     <a id="whatsAppIcon" href="https://wa.me/?text=<?php the_permalink(); ?>" data-action="share/whatsapp/share" target="_blank"><i class="fa fa-whatsapp"></i></a>
                                 </span>
-                                <span>
-                                    <a id="printIcon" href="javascript:vloid(0)" onclick="window.print();return false;"><i class="fa fa-print"></i></a>
-                                </span>
+<!--                                <span>-->
+<!--                                    <a id="printIcon" href="javascript:vloid(0)" onclick="window.print();return false;"><i class="fa fa-print"></i></a>-->
+<!--                                </span>-->
                             </div> 
                         </h3>                              
                         <a href="javascript:void(0)" class="expand_more">Read More</a>

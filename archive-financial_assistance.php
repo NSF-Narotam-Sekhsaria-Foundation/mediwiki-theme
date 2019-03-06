@@ -22,7 +22,7 @@ get_header();
     </div>
 </div>
     <!-- AddToAny BEGIN -->
-    <div class="a2a_kit a2a_kit_size_42 a2a_default_style" >
+    <div class="a2a_kit a2a_kit_size_42 a2a_default_style" data-a2a-icon-color="#15a59b">
         <a class="a2a_button_facebook"></a>
         <a class="a2a_button_twitter"></a>
         <a class="a2a_button_whatsapp"></a>

@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying archive pages
+ * The template for displaying archive pages like blood-bank
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -104,7 +104,7 @@ get_header();
 	            <div class="col-sm-5">
 	                <h3><?php echo $archive_title; ?> <span id="filters"><a href="javascript:void(0)">Filters</a></span></h3>
 	            </div>
-	            <div class="col-sm-7">
+	            <div class="col-sm-7 top15-mobile">
 	                <form action="#" class="search_form" onsubmit="return false;">
 	                    <div class="col-xs-6 col-md-6 padding-left-0 padding-right-0">
 	                        <input type="search" name="search" required="" placeholder="Search here" class="form-control search_field">
@@ -135,26 +135,25 @@ get_header();
 
 	                <hr>
 	                <div class="toggle-area" id="result">
-		                
+
 	                </div>
-	            </div> 
+	            </div>
 	        </div>
 
 	    <?php endif; ?>
-    </div>   
+    </div>
+    <!-- AddToAny BEGIN -->
+    <div class="a2a_kit a2a_kit_size_42 a2a_default_style move-right" data-a2a-icon-color="#15a59b">
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_whatsapp"></a>
+        <a class="a2a_button_email"></a>
+    </div>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <!-- AddToAny END -->
 </section>
 
 <div id="snackbar">Link Copied!</div>
-<!-- AddToAny BEGIN -->
-<div class="a2a_kit a2a_kit_size_42 a2a_default_style" >
-    <a class="a2a_button_facebook"></a>
-    <a class="a2a_button_twitter"></a>
-    <a class="a2a_button_whatsapp"></a>
-    <a class="a2a_button_email"></a>
-</div>
-<script async src="https://static.addtoany.com/menu/page.js"></script>
-<!-- AddToAny END -->
-
 <?php get_footer(); ?>
 
 <script type="text/javascript">

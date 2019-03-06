@@ -416,7 +416,7 @@ footer a:visited {
 }
 form h3 {  
     font-family: OpenSans-Regular;
-    font-size: 14px;
+    /*font-size: 14px;*/
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;

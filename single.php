@@ -26,12 +26,12 @@
             </div> 
             <div class="col-md-3 col-xs-12">
                 <div class="pull-right icon-list">
-                    <span>
-                        <a id="copy-title-link" href="javascript:void(0);" data-href="<?php the_permalink(); ?>" onclick="copyToClipboard(this)">Copy Link</a>
-                    </span>
-                    <span>
-                        <a href="https://wa.me/?text=<?php the_permalink(); ?>" data-action="share/whatsapp/share" target="_blank"><i class="fa fa-whatsapp"></i></a>
-                    </span>
+<!--                    <span>-->
+<!--                        <a id="copy-title-link" href="javascript:void(0);" data-href="--><?php //the_permalink(); ?><!--" onclick="copyToClipboard(this)">Copy Link</a>-->
+<!--                    </span>-->
+<!--                    <span>-->
+<!--                        <a href="https://wa.me/?text=--><?php //the_permalink(); ?><!--" data-action="share/whatsapp/share" target="_blank"><i class="fa fa-whatsapp"></i></a>-->
+<!--                    </span>-->
                     <span class="mobile-hidden">
                         <a href="javascript:vloid(0)" onclick="window.print();return false;"><i class="fa fa-print"></i></a>
                     </span>
@@ -45,7 +45,7 @@
 </div>
 
     <!-- AddToAny BEGIN -->
-    <div class="a2a_kit a2a_kit_size_42 a2a_default_style" >
+    <div class="a2a_kit a2a_kit_size_42 a2a_default_style" data-a2a-icon-color="#15a59b">
         <a class="a2a_button_facebook"></a>
         <a class="a2a_button_twitter"></a>
         <a class="a2a_button_whatsapp"></a>
