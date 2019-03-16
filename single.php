@@ -68,7 +68,7 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="heading-top-line"></div>
                         <h3 class="single-card-listing-heading">Address</h3>
-                        <div class="single-card-listing-paragraph"><?php the_field('address'); ?></div>
+                        <div class="single-card-listing-paragraph address-box"><?php the_field('address'); ?></div>
 
                         <div class="heading-top-line"></div>
                         <h3 class="single-card-listing-heading">Contact</h3>
