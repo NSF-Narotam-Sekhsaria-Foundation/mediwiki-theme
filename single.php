@@ -145,7 +145,7 @@
                                 // Loops through all the available taxonomies
                                 foreach( $taxonomies as $taxonomy )  {
                                     $selected_terms = get_the_terms( get_the_ID(), $taxonomy->name ); 
-                                    $terms = get_terms( $taxonomy->name, array('hide_empty'=>false, 'order' => 'ASC') );
+                                    $terms = get_terms( $taxonomy->name, array('hide_empty'=>false, 'order' => 'ASC','orderby'=> 'term_order') );
                                     // If any of the term in the taxonomy selected
                                     if ( $selected_terms ) {
                                         foreach( $selected_terms as $selected_term ) {

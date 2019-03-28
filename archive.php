@@ -35,7 +35,7 @@ get_header();
 				foreach( $taxonomies as $taxonomy )  { 
 					?>
 					<?php 
-						$terms = get_terms( $taxonomy->name, array( 'hide_empty' => false ) ); 
+						$terms = get_terms( $taxonomy->name, array( 'hide_empty' => false , 'orderby'=> 'term_order') );
 						if ( $terms ) {
 							?>
 							<h3>
@@ -46,7 +46,6 @@ get_header();
 							
 							<?php
 								foreach( $terms as $term ) {
-									// print_r($term);
 									if ( in_array( $taxonomy->name, $radioTaxonomies['taxonomies'] ) ) {
 										$input_type = 'radio';
 										$class = 'checkmark_radio';

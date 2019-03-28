@@ -1,4 +1,5 @@
-<?php 
+<?php
+    define( 'WP_MEMORY_LIMIT', '256M' );
 	add_action( 'wp_ajax_ajax_archive_operations', 'ajax_archive_operations' );
 	add_action( 'wp_ajax_nopriv_ajax_archive_operations', 'ajax_archive_operations' );
 
@@ -107,7 +108,7 @@
 
         if ( !empty( $filters ) ) {
 
-            $tax_query['relation'] = 'OR';
+            $tax_query['relation'] = 'AND';
             $tax = array();
 
 
