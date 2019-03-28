@@ -3,10 +3,11 @@
         <div class="row">                        
             <div class="col-md-8 col-xs-12">
                 <div class="links_area"> 
-                    <?php 
-                        if(function_exists('bcn_display')) {
-                            bcn_display();
-                        }
+                    <?php
+//                    Diabled the breadcrumb
+//                        if(function_exists('bcn_display')) {
+//                            bcn_display();
+//                        }
                     ?>  
                 </div>
                     <?php 
