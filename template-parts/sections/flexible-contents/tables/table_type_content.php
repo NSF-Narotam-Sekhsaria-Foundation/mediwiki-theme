@@ -12,7 +12,7 @@
                 } 
             ?>
             <div class="col-md-12 padding-left-0">
-                <table class="table table-responsive mt-40 custom-table">
+                <table class="table table-responsive custom-table">
                     <thead>
                         <tr>             
                             <th class="col-md-3"><?php the_sub_field('table_column_heading_1'); ?></th>
