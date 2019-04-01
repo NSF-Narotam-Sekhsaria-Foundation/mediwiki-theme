@@ -153,13 +153,16 @@
                 }
             }
             if(!empty($count)){
-                $display_str .= ' Showing '.$count.' results';
+                $display_str .= ' Total '.$count.' results';
             }
             $display_str .= '</div><hr>';
-            echo $display_str;
+            if(!$offset) {
+                echo $display_str;
+            }
         }else{
-            $display_str = '<div class="filter_block">Result For "All" , Showing '.$count.' results</div><hr>';
-            echo $display_str;
+            if(!$offset){
+            $display_str = '<div class="filter_block">Total '.$count.' results</div><hr>';
+            echo $display_str;}
         }
 
 
