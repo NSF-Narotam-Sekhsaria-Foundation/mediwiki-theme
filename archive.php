@@ -34,13 +34,14 @@ get_header();
 	    	<?php 
 				foreach( $taxonomies as $taxonomy )  { 
 					?>
-					<?php 
+					<?php
+                        $translate_check_name = $taxonomy->name;
 						$terms = get_terms( $taxonomy->name, array( 'hide_empty' => false , 'orderby'=> 'term_order') );
-						if ( $terms ) {
+						if ( $terms & $translate_check_name != "post_translations" && $taxonomy->labels->name != "Languages") {
 							?>
 							<h3>
 								<?php 
-									echo '' . $taxonomy->labels->name . ''; 
+									echo '' . $taxonomy->labels->name . '';
 								?>										
 							</h3>
 							

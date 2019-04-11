@@ -81,10 +81,10 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   	<?php wp_nav_menu( array( 
                   		'theme_location' => 'menu-1', 
-                  		'menu_class' => 'nav navbar-nav navbar-right desktop-menu' 
+                  		'menu_class' => 'nav navbar-nav navbar-right desktop-menu'
                   	) ); ?>
 
-                    <ul style="display: none; width: 100%" class="nav navbar-nav navbar-right nav nav-stacked mobile-menu-accordion panel-group" id="accordion1">			        
+                    <ul style="display: none; width: 100%" class="nav navbar-nav navbar-right nav nav-stacked mobile-menu-accordion panel-group" id="accordion1">
 
                         <?php 
                             if( have_rows('menu', 'option') ) {
@@ -119,7 +119,8 @@
                         ) ); ?>                     
                     </ul>    
                 </div>
-                
+<!--                <div>--><?php //var_dump(pll_the_languages(array('raw'=>1))); ?><!--</div>-->
+                <div><?php pll_the_languages(array('dropdown'=>1));  ?></div>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-fluid -->

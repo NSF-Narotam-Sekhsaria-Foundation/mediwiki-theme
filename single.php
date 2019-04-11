@@ -147,7 +147,9 @@
                                     $selected_terms = get_the_terms( get_the_ID(), $taxonomy->name ); 
                                     $terms = get_terms( $taxonomy->name, array('hide_empty'=>false, 'order' => 'ASC','orderby'=> 'term_order') );
                                     // If any of the term in the taxonomy selected
-                                    if ( $selected_terms ) {
+                                    $translate_check_name = $taxonomy->name;
+
+                                    if ( $selected_terms && $translate_check_name != "post_translations" && $taxonomy->labels->name != "Languages" ) {
                                         foreach( $selected_terms as $selected_term ) {
                                             array_push( $selected_array, $selected_term->term_id );
                                         }
@@ -173,7 +175,7 @@
                                             </ul>
                                         </div>
                                         <?php
-                                    } else {
+                                    } else if($translate_check_name != "post_translations" && $taxonomy->labels->name != "Languages"){
                                         ?>
                                         <div class="col-md-3 col-sm-6 col-xs-12 col-5-width noMatch" data-mh="filters-group">
                                             <h4><?php echo $taxonomy->labels->name; ?></h4>
