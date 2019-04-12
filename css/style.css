@@ -3333,3 +3333,9 @@ h2.tablepress-table-name{
     font-style: normal;
     color: #00a99b;
 }
+
+.language_switcher{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}

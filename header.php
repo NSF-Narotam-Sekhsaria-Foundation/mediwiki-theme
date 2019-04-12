@@ -79,10 +79,33 @@
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  	<?php wp_nav_menu( array( 
+                  	<?php
+                    $raw_language = pll_the_languages(array('raw' => 1));
+
+                    $languages = pll_languages_list();
+                    foreach ($languages as $language) {
+                        //if is not current language
+                        if (pll_current_language() != $language) {
+                            if (!$raw_language[$language]['no_translation']) {
+                                $raw_language[$language]['url'];
+                                $language_set = '<a href ="'. $raw_language[$language]['url'].'" style="color: #3479c3;">';
+                                $language_set .= $raw_language[$language]['name'];
+                                $language_set .= '</a>';
+                            }
+                        }
+                        //and if is translation available
+                        // add to the menu
+                    }
+
+                    $items_wrap = '<ul id="%1$s" class="%2$s">%3$s';
+                    $items_wrap .= '<li id="language-switcher">'.$language_set.'</li>';
+                    $items_wrap .= '</ul>';
+                    wp_nav_menu( array(
                   		'theme_location' => 'menu-1', 
-                  		'menu_class' => 'nav navbar-nav navbar-right desktop-menu'
-                  	) ); ?>
+                  		'menu_class' => 'nav navbar-nav navbar-right desktop-menu',
+                        'items_wrap' => $items_wrap
+                    ) );
+                  	?>
 
                     <ul style="display: none; width: 100%" class="nav navbar-nav navbar-right nav nav-stacked mobile-menu-accordion panel-group" id="accordion1">
 
@@ -119,8 +142,6 @@
                         ) ); ?>                     
                     </ul>    
                 </div>
-<!--                <div>--><?php //var_dump(pll_the_languages(array('raw'=>1))); ?><!--</div>-->
-                <div><?php pll_the_languages(array('dropdown'=>1));  ?></div>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-fluid -->
