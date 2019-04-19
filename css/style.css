@@ -112,6 +112,64 @@ ul.main_menu1 li a {
     color: #0e9385 !important;
 }
 
+li ul { display: none; }
+
+li:hover > ul {
+    display: block;
+}
+
+li:hover > ul > li > a {
+    padding-top: 1px;
+    padding-bottom: 2px;
+
+}
+
+ul#menu-main-menu li:nth-last-child(3) {
+    margin-right: 30px;
+}
+
+.lang-item a {
+    text-decoration: none;
+}
+
+ul.main_menu1 li a  {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+}
+
+ul li.menu-item:hover {
+    background: #e2f0ed;
+    color: #0e9385;
+}
+
+ul li.menu-item ul.sub-menu {
+    background: #e2f0ed;
+    color: #0e9385;
+    margin-top: -2px;
+}
+
+ul.nav.navbar-nav.navbar-right li ul.sub-menu li {
+    text-align: right;
+}
+
+ul.nav.navbar-nav.navbar-right li ul.sub-menu li a {
+    background: transparent;
+    padding: 5px 10px;
+    text-align: right;
+}
+ul.nav.navbar-nav.navbar-right li ul.sub-menu li a:hover {
+    background: transparent;
+    padding: 5px 10px;
+}
+
+
+#menu-item-3676{
+    padding-left: 20px;
+}
+
 
 ul.nav.navbar-nav.navbar-right {   
     overflow: hidden;
