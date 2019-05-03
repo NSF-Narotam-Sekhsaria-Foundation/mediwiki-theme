@@ -124,11 +124,25 @@ li:hover > ul > li > a {
 
 }
 
-ul#menu-main-menu li:nth-last-child(3) {
+/*ul#menu-main-menu li:nth-last-child(3) {*/
+/*    margin-right: 30px;*/
+/*}*/
+
+/*ul#menu-main-menu-mr li:nth-last-child(3) {*/
+/*    margin-right: 30px;*/
+/*}*/
+
+/*ul#menu-main-menu-hi li:nth-last-child(3) {*/
+/*    margin-right: 30px;*/
+/*}*/
+
+/*English*/
+#menu-item-1472{
     margin-right: 30px;
 }
 
-ul#menu-main-menu-mr li:nth-last-child(3) {
+/*hindi,marathi*/
+#menu-item-4017{
     margin-right: 30px;
 }
 
