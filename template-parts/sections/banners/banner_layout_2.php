@@ -4,6 +4,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     overflow: hidden;
     ">
