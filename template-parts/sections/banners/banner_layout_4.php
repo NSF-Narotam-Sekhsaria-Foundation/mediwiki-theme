@@ -23,7 +23,8 @@
                 style="background: url(<?php the_field('background_image_banner_layout_4'); ?>);
                 height: 300px;
                 background-size: <?php the_field('background_size_banner_layout_4'); ?>;
-                background-repeat: no-repeat;"> 
+                background-repeat: no-repeat;
+                background-position: center;">
             </div> 
         </div>    
     </div>              
