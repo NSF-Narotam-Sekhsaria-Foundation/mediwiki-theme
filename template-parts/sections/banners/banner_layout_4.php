@@ -1,8 +1,9 @@
 <div class="breadcrumbs_illustration">
     <div class="container-fluid">
         <div class="row">                        
-            <div class="col-md-6 col-xs-6 padding-left-0 mobile-width-full"> 
-                <div class="paddings">
+            <div class="col-md-6 col-xs-6 padding-left-0 mobile-width-full" style="
+                 padding: 3% 0;">
+                <div class="paddings-override">
                     <?php 
                         if( get_field('heading_banner_layout_4') ) { 
                             ?>

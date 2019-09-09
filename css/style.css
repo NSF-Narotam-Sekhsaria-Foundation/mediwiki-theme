@@ -1964,6 +1964,12 @@ section.content-section h4 {
 .paddings {
     padding: 110px 61px;
 }
+
+.paddings-override {
+    padding: 0px 61px;
+}
+
+
 .mt-60-not-mobile{
     margin-top: 60px;
 }
