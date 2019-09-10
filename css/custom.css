@@ -32,3 +32,75 @@
 
     .top15-mobile { margin-top:15px; }
 }
+
+.two-section-image{
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 3em;
+    margin-top: 1em;
+
+}
+
+.dos-image-tick{
+    content: '';
+    background: url(../images/can-donate.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 30px;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+}
+
+.dos-dont-icon{
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+.cannot-donate-with-image>li:before{
+    background-image:none!important;
+    list-style-type: none;
+}
+
+.can-donate-with-image li{
+    font-family: OpenSans-SemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    padding-left: 0px!important;
+
+}
+
+.can-donate-with-image , .cannot-donate-with-image{
+    padding-left: 0px!important;
+}
+
+
+.cannot-donate-with-image li{
+    font-family: OpenSans-SemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    padding-left: 0px!important;
+
+}
+
+
+.can-donate-with-image>li:before{
+    background-image:none!important;
+    list-style-type: none;
+}
+
+
+

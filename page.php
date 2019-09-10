@@ -151,6 +151,10 @@ get_header();
 		            			get_template_part( 'template-parts/sections/flexible-contents/dos_and_donts_2_column_section' );
 		    				}
 
+		    				if( get_row_layout() == 'dos_and_donts_2_column_with_image_section' ) {
+		            			get_template_part( 'template-parts/sections/flexible-contents/dos_and_donts_2_column_with_image_section' );
+		    				}
+
 		    				if( get_row_layout() == 'address_phone_number_section' ) { 
 		            			get_template_part( 'template-parts/sections/flexible-contents/address_phone_number_section' );
 		    				}
