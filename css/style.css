@@ -2588,9 +2588,9 @@ span.wpcf7-list-item {
 .mobile-view {
     border: 0px;
 }
-.mobile-view tr {
-    border-bottom: 1px solid #d8d8d8;
-}
+/*.mobile-view tr {*/
+    /*border-bottom: 1px solid #d8d8d8;*/
+/*}*/
 .custom-border-left a {
     word-break: break-all;
 }

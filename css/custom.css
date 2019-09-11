@@ -103,4 +103,10 @@
 }
 
 
+.mobile-view td img{
+    float: none;
+}
 
+.td-align-center{
+    text-align: center;
+}

@@ -11,7 +11,7 @@
                 } 
             ?>
             <div class="col-md-12 padding-left-0 padding-right-0">
-                <table class="table table-responsive mt-20 custom-table custom-verticle-middle">
+                <table class="table table-responsive mt-40 custom-table custom-verticle-middle">
                     <thead>
                       <tr>
                         <th class="col-md-3"><?php the_sub_field('column_1_heading_table_image_type_1'); ?></th>
@@ -56,15 +56,18 @@
                                     the_row(); 
                                     ?>
                                     <tr>                                        
-                                        <td class="padding-left-0">
+                                        <td class="padding-left-0 td-align-center">
                                             <?php $image_table_image_type_1 = get_sub_field('image_table_image_type_1');
                                                 if ($image_table_image_type_1!="") {
                                                     ?>
-                                                    <img src="<?php the_sub_field('image_table_image_type_1'); ?>" alt="Kidney" class="img-responsive table-img"> <span class="img-name"><?php the_sub_field('heading_inside_table_table_image_type_1'); ?></span>
+                                                    <img src="<?php the_sub_field('image_table_image_type_1'); ?>" alt="Kidney" class="table-img">
+                                                    <span class=""><?php the_sub_field('heading_inside_table_table_image_type_1'); ?></span>
                                                     <?php 
                                                 }
                                             ?>
                                         </td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #d8d8d8;">
                                         <td>
                                             <?php the_sub_field('table_content_table_table_image_type_1'); ?>
                                         </td>       
