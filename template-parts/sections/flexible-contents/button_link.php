@@ -10,7 +10,7 @@
             	<?php 
                 	if( get_sub_field('button_links') ) { 
                     	?>
-                		<a href="<?php the_sub_field('button_links'); ?>"><?php the_sub_field('button_label'); ?> <span class="fa fa-angle-right"></span></a>
+                		<a target="_blank" href="<?php the_sub_field('button_links'); ?>"><?php the_sub_field('button_label'); ?> <span class="fa fa-angle-right"></span></a>
                 		<?php 
                 	} 
             	?>
