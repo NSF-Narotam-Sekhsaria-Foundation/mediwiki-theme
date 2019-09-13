@@ -1782,12 +1782,26 @@ p.semi-bold {
     line-height: 1.88;
     letter-spacing: normal;
     color: #4a4a4a;
-    list-style-type: none;
+    list-style-type:disc;
     padding: 6px 15px;
 }
 
+
 .content-inside-table ol {
     padding: 0 0 0 19px;
+}
+
+.content-inside-table li>span::before{
+    /*list-style-type: disc;*/
+    content: '';
+    background: url(../images/circle-dots.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 8px;
+    color: #00a99b;
+    position: absolute;
+    margin: 10px 0px 10px -20px;
 }
 
 
