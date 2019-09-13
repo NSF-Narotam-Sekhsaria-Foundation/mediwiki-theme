@@ -51,7 +51,7 @@
                                             the_row(); 
                                             ?>
                                             <div class="box-link mt-20">
-                                                <a href="<?php the_sub_field('button_link_content_column_2_column_section_type_5'); ?>"><?php the_sub_field('button_label_content_column_2_column_section_type_5'); ?> <span class="fa fa-angle-right"></span></a>
+                                                <a target="_blank" href="<?php the_sub_field('button_link_content_column_2_column_section_type_5'); ?>"><?php the_sub_field('button_label_content_column_2_column_section_type_5'); ?> <span class="fa fa-angle-right"></span></a>
                                             </div>
                                             <?php 
                                         }
