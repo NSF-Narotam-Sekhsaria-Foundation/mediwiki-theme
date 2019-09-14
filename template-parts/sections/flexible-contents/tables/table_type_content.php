@@ -53,7 +53,7 @@
                                             }
                                         }
                                     ?>
-                                        <td>
+                                        <td style="padding-left: 15px!important;">
                                             <?php $content_inside_table_type_content_copy = get_sub_field('content_inside_table_type_content_copy');
                                                 if ($content_inside_table_type_content_copy!="") {
                                                     ?>
