@@ -1566,8 +1566,8 @@ h1.banner-heading {
     padding: 0;
 }
 .save-lives {
-    margin: 0;
-    width: 360px;
+    margin-top: 40px;
+    max-width: 100%;
 }
 .organs_tissue_large_img{
     width: 80%;
